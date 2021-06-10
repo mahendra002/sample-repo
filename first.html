@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My First Page</title>
+</head>
+<body>
+	<form>
+		<table align="center"border=0 bgcolor="aqua">
+		<tr>
+			<td></td>
+			<td><b>Registration</b></td>
+		</tr>
+		<tr>
+			<td>Name :<font color="red">*</font></td>
+			<td><input type="text" name="t1" required></td>
+		</tr>
+		<tr>
+			<td>Roll No. :<font color="red">*</font></td>
+			<td><input type="text" name="t2" required maxlength="4"></td>
+		</tr>
+		<tr>
+			<td>Email :<font color="red">*</font></td>
+			<td><input type="email" name="e1" required></td>
+		</tr>
+		<tr>
+			<td>Contact :<font color="red">*</font></td>
+			<td><input type="text" name="t3" required maxlength="10"></td>
+		</tr>
+		<tr>
+			<td>Gender :</td>
+			<td><input type="radio" name="r1">Male
+			<input type="radio" name="r1">Female</td>
+		</tr>
+		<tr>
+			<td valign="top">Address:<font color="red">*</font></td>
+			<td><input type="text" name="st" required placeholder="Street"></br>
+				<input type="text" name="ct" required placeholder="city"></br>
+				<select>
+					<option>State</option>
+					<option>Uttarakhand</option>
+					<option>Uttarpradesh</option>
+					<option>Delhi</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">Qualification :</td>
+			<td><input type="checkbox" name=cc>BCA
+			<input type="checkbox" name=cc>MCA</br>
+			<input type="checkbox" name=cc>B.Tech
+			<input type="checkbox" name=cc>M.Tech</td>
+		</tr>
+		<tr>
+			<td valign="top">Message :</td>
+			<td><textarea rows="10" cols="15"></textarea></td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center"><input type="submit" value="Send"></td>
+		</tr>
+	</form>
+</body>
+</html>
